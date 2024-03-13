@@ -1,0 +1,142 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+}
+#cont{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: black;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+    color: white;
+    z-index: 2;
+}
+#main{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+.a{
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.a:hover{
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#logo{
+    font-size: 35px;
+    font-family: 'Foldit', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Rubik Doodle Shadow', system-ui;
+font-family: 'Rubik Glitch', system-ui;
+font-family: 'Rubik Maps', system-ui;
+font-family: 'Unbounded', sans-serif;
+}
+
+#logintitle{
+    font-size: 60px;
+    background-image: linear-gradient(45deg,orangered,green,blue,yellow,blue,green,orangered);
+    background-position: 3000px;
+    background-size: 2000px;
+    color: transparent;
+    -webkit-background-clip:text;
+    animation: animation 5s infinite;
+}
+@keyframes animation {
+    from{
+        background-position: 3000px;
+    }
+    to{
+        background-position: 0px;
+    }
+}
+#div{
+    width: 500px;
+    height: 450px;
+    box-shadow: 8px 8px 8px black;
+    background-image: linear-gradient(45deg,hotpink,pink,hotpink);
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    letter-spacing: 5px;
+    line-height: 50px;
+    margin-bottom: 50px;
+    box-shadow: 3px 2px 2px 3px black;
+}
+table{
+    line-height: 70px;
+}
+
+input{
+    width: 250px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-align: center;
+    color: mediumorchid;
+}
+label{
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+#login{
+    width: 200px;
+    height: 40px;
+    background-color: darkorchid;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#signup{
+    color: violet;
+    font-size: 25px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#check{
+    width: 20px;
+    height: 20px;
+}
+#rem{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 16px;
+}
+#mismatch{
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: red;
+}

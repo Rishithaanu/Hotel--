@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+#cont{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.a{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 70px;
+    box-shadow: 3px 3px 3px 3px black;
+}
+#img{
+    width: 100%;
+    height: 700px;
+    /* background-image: url(./../../../asset/images/HumBurgerSandwich.jpg); */
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+img:hover{
+    transform: scale(1.2);
+}
+#disc{
+    width: 50%;
+    height: 700px;
+    position: relative;
+    left: -250px;
+    background-image: conic-gradient(honeydew,lightpink,lavenderblush,honeydew,azure,honeydew);
+    color: black;
+    font-size: 24px;
+    letter-spacing: 4px;
+    line-height: 40px;
+    text-indent: 70px;
+    padding: 50px;
+}
+span{
+    color: deeppink;
+}
+#items{
+    height: 300px;
+    padding: 50px;
+    /* background-image: conic-gradient(honeydew,skyblue,azure,skyblue,azure,skyblue,honeydew) */
+}
+#ip{
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    border-radius: 2px solid black;
+    box-shadow: 2px 2px 5px black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+}
+.input{
+    width: 33.3%;
+    height: 100%;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+#price{
+    width: 200px;
+    height: 40px;
+    letter-spacing: 4px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+#upi{
+    height: 600px;
+    /* background-image: linear-gradient(125deg,lemonchiffon, black,lightyellow); */
+}
+#email{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: white;
+    letter-spacing: 4px;
+}
+.inp{
+    width: 500px;
+    height: 50px;
+    background-color: transparent;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: white;
+}
+#ol{
+    height: 400px;
+    font-size: 35px;
+    letter-spacing: 4px;
+    color: lightyellow;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.check{
+    width: 30px;
+    height: 30px;
+}
+#submit{
+    color: lightgreen;
+}

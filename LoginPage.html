@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./LoginPage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="./LoginPage.js" defer></script>
+</head>
+<body>
+    <div id="cont">
+        <nav>
+            <ul id="main">
+                <li class="a" id="logo">RaRe<i class="fa-solid fa-utensils"></i></li>
+                <li class="a"><a id="about" href="./aboutus.html">AboutUs</a></li>
+                <li class="a"><a href="./menu.html">Menu</a></li>
+                <li class="a" id="loc"><a href="./location.html">Location</a></li>
+                <li class="a" >Login</li>
+                <li class="a" ><a id="sign" href="./signup.html">Signup</a></li>
+            </ul>
+        </nav>
+
+    <h1 id="logintitle">LoginPage</h1>
+    <br><br>
+    <div id="div">
+        <table style="border-collapse: collapse;">
+            <tr>
+                <td><label>UserName</label></td>
+                <td><input id="name" type="text" placeholder="enter user name" required></td>
+            </tr>
+            <tr>
+                <td><label>Password</label></td>
+                <td><input id="password" type="password" placeholder="enter password" required oninput="passwordRequirments()"></td>
+                <td><h4 id="match"></h4></td>
+            </tr>
+        </table>
+        <label id="rem"><input id="check" type="checkbox">Remeber me</label>
+        <input type="button" value="Login" id="login" onclick="validation()">
+        <h3 id="mismatch"></h3>
+        <h3>don't have an account?</h3>
+        <a id="signup" href="./signup.html">SignUp</a>
+        <h3>~*~</h3>
+    </div>
+    </div>
+</body>
+</html>

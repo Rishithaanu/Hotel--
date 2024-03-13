@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./cssStyles.css">
+    <script src="./HumBurger.js" defer></script>
+</head>
+<body>
+    <div id="cont">
+        <div class="a" id="img">
+            <img style="width: 800px; height: 500px;" src="./../../../asset/images/HumBurgerSandwich.jpg" alt="">
+            <br><br><br>
+            <h2 style="color: darkred;">HumBurgerSandwich</h2>
+        </div>
+        <div class="a" id="disc">
+            <p>A <span>HamBurger</span> or simply burger, is a food consisting of fillings—usually a patty of ground meat, typically beef—placed inside a sliced bun or bread roll. Hamburgers are often served with cheese, lettuce, tomato, onion, pickles, bacon, or chilis; condiments such as ketchup, mustard, mayonnaise, relish, or a "special sauce", often a variation of Thousand Island dressing; and are frequently placed on sesame seed buns. A hamburger patty topped with cheese is called a cheeseburger.Hamburgers are often sold at fast-food restaurants and diners, but are also sold at various other restaurants. There are many international and regional variations of hamburger. Some of the largest multinational fast-food chains have a burger as one of their core products: McDonald's Big Mac and Burger King's Whopper have become global icons of American culture.</p>
+        </div>
+        <div class="a" id="items">
+            <h2>Price : <span>20$/-</span></h2>
+            <br>
+            <h3>Select Quantity</h3>
+            <br>
+            <div id="ip">
+                <!-- <input type="button" value="-" onclick="dec()">
+                <input type="text" value="0" id="val" readonly>
+                <input type="button" value="+" onclick="fun()"> -->
+                <input class="input" type="button" value="-" onclick="dec()" >
+                <input class="input" type="text" value="0" readonly id="inpt">
+                <input class="input" type="button" value="+" onclick="inc()" >
+            </div>
+            <br>
+            <input id="price" type="button" value="TotalPrice" onclick="total()">
+            <br>
+            <h3 id="total"></h3>
+        </div>
+        <div class="a" id="upi">
+            <div id="email">
+                <label for="">Address: </label>
+                <textarea class="inp" placeholder=" enter your adress" cols="30" rows="10"></textarea>
+            </div>
+            <div id="ol">
+                <table>
+                    <tr>
+                        <td><input class="check" type="checkbox"></td>
+                        <td><label for="">UPI(GPay or PhonePe)</label></td>
+                    </tr>
+                    <tr>
+                        <td><input class="check" type="checkbox" name="" id=""></td>
+                        <td><label for="">Net Banking</label></td>
+                    </tr>
+                    <tr>
+                        <td><input class="check" type="checkbox"></td>
+                        <td><label for="">Cash On Delivery</label></td>
+                    </tr>
+                </table>
+                <br>
+                <input class="inp" type="button" value="submit" onclick="submit()">
+                <br>
+                <h4 id="submit"></h4>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
